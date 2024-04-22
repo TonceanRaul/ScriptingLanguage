@@ -83,6 +83,3 @@ export function tokenize(sourceCode: string): Token[] {
     }
     return tokens
 }
-
-const aaa = tokenize('let a = 2 + 4')
-console.log(aaa)
